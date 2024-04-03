@@ -1,0 +1,52 @@
+<div class="splide-sdc-demo-thumbnails__slides">
+  {% embed('splide_sdc:splide') with {
+    label: 'Splide Slider Demo Thumbnails - Slides'
+  } %}
+    {% block slides %}
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/horse" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/cat" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/dog" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/panda" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/crocodile" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/bear" loading="lazy" />
+      </li>
+    {% endblock %}
+  {% endembed %}
+</div>
+<div class="splide-sdc-demo-thumbnails__thumbnails">
+  {% embed('splide_sdc:splide') with {
+    label: 'Splide Slider Demo Thumbnails - Thumbnails'
+  } %}
+    {% block slides %}
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/horse" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/cat" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/dog" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/panda" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/crocodile" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/bear" loading="lazy" />
+      </li>
+    {% endblock %}
+  {% endembed %}
+</div>

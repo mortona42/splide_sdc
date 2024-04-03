@@ -1,0 +1,9 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: Splide SDC Demo Thumbnails
+description: A splide slider with thumbnails.
+props:
+  type: object
+  properties: {}
+slots:
+  slides:
+    title: Slides

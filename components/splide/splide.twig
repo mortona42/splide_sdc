@@ -1,0 +1,11 @@
+<section class="splide" aria-label="{{ label }}">
+  <div class="splide__track">
+    <ul class="splide__list">
+      {% block slides %}
+        {% for slide in slides %}
+          <li class="splide__slide">{{ slide }}</li>
+        {% endfor %}
+      {% endblock %}
+    </ul>
+  </div>
+</section>

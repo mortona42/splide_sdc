@@ -1,0 +1,16 @@
+'$schema': 'https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json'
+name: Splide
+props:
+  type: object
+  properties: {}
+slots:
+  label:
+    title: Label
+  slides:
+    title: Slides
+libraryOverrides:
+  js:
+    js/splide.min.js: { weight: -1 }
+  css:
+    component:
+      css/splide.min.css: { weight: -1 }

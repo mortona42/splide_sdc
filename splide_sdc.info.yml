@@ -1,0 +1,5 @@
+name: 'Splide SDC'
+type: module
+description: 'SplideJS single directory component.'
+package: Custom
+core_version_requirement: ^10 || ^11

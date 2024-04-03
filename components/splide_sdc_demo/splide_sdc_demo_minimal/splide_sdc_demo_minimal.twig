@@ -1,0 +1,26 @@
+<div class="splide-sdc-demo-minimal">
+  {% embed 'splide_sdc:splide' with {
+    label: 'Splide SDC Demo Minimal'
+  } only %}
+    {% block slides %}
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/tech" />
+      </li>
+      <li class="splide__slide" >
+        <img src="https://loremflickr.com/1600/900/git" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/internet" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/ai" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/drupal" loading="lazy" />
+      </li>
+      <li class="splide__slide">
+        <img src="https://loremflickr.com/1600/900/php" loading="lazy" />
+      </li>
+    {% endblock %}
+  {% endembed %}
+</div>
